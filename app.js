@@ -13,7 +13,7 @@ const resetButton = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#playto');
 
 
-let winningScore = 5;
+let winningScore = parseInt(winningScoreSelect.value);
 let isGameOver = false;
 
 function updatingScore (player, opponent) {
@@ -26,7 +26,6 @@ function updatingScore (player, opponent) {
             opponent.display.classList.add("looser");
             player.button.disabled = true;
             opponent.button. disabled = true;
-
         }
         
     }
