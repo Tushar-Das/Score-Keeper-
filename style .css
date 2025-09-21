@@ -1,0 +1,13 @@
+
+.winner {
+    color: green;
+}
+.looser {
+    color : red
+}
+.button {
+    display: flex;
+}
+.container {
+    padding-top: 50px;
+}
